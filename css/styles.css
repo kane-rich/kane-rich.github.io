@@ -67,6 +67,7 @@ main {
   width: 100%;
   top: -2em;
   margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 nav {
@@ -105,28 +106,23 @@ p {
 
 .aboutsection {
   display: flex;
-  flex: 1 1 auto;
   flex-direction: column;
-  background:  #0E1428;
-  width: 25%;
-  height: 50vh;
-  /*
-  flex-grow: 1;
-  */
-  padding-top: 10px;
+  background: #0E1428;
+  width: 42.3%;
+  height: 35em;
+  padding-top: 50px;
   padding-right: 25px;
   padding-left: 25px;
   padding-bottom: -20px;
-  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
   line-height: 1.4;
-  margin-left: auto;
   margin-right: auto;
-  justify-content: flex-end;
   align-items: flex-end;
+  
 }
 
 .aboutsection h2 {
-  width: 20em;
+  width: 18em;
   font-weight: 400;
   color: #d95d39;
 }
@@ -241,16 +237,16 @@ p {
   position: absolute;
   padding-top: 0px;
   padding-bottom: 30px;
-  left: 1em;
+  padding-left: 45px;
   color: #FEE3C3;
 }
 
 .headerorange {
   display: block;
   position: absolute;
-  padding-top: 15px;
-  padding-bottom: 30px;
-  left: 1em;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  left: 45px;
   color: #d95d39;
 }
 
@@ -258,16 +254,16 @@ p {
   display: block;
   width: 100vw;
   position: absolute;
-  padding-top: 0px;
+  padding-top: 45px;
   padding-bottom: 30px;
-  left: 0;
+  padding-left: 45px;
   color: #FEE3C3;
   background: #0E1428;
 }
 
 .headerdark h2 {
-  margin-left: 0.9em;
-  color: #d95d39
+  color: #d95d39;
+  display: inline;
 }
 
 .headerdark h3 {
@@ -288,6 +284,14 @@ p {
   margin-right: 40px;
 }
 
+.list {
+  color: #0E1428;
+  width: 22em;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .lower-navigation {
   font-weight: 600;
   font-size: 20px;
@@ -300,13 +304,12 @@ p {
 .picturesection {
   display: flex;
   flex-direction: column;
-  background:  #FEE3C3;
+  background: #FEE3C3;
   width: 20%;
-  height: 80vh;
-  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  height: 35em;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
   padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 27em;
 }
 
 .picturesection h3 {
@@ -322,6 +325,9 @@ p {
   width: 200px;
   height: 280px;
   object-fit: cover;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .picturebackground {
@@ -365,7 +371,7 @@ p {
   row-gap: 4em;
   background: #0E1428;
   margin: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   color:  #FEE3C3;
   width: 100vw;
   height: 80%;
@@ -457,7 +463,7 @@ p {
   color: #FEE3C3;
   width: 100%;
   height: 47em;
-  padding-top: 5em;
+  padding-top: 9em;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: -20px;
