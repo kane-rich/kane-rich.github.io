@@ -1,0 +1,215 @@
+/* Smallest devices (Small phones up to 576px) */
+@media screen and (max-width: 576px ) { 
+    * {
+        font-smooth: auto;
+        -webkit-font-smoothing: antialiased;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+    h1, h2, h3, h4, h5 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.5;
+        display: block; 
+        margin-top: 0.9em; 
+        margin-bottom: 0.9em; 
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    
+    p {
+        color: #FEE3C3;
+        text-align: justify;
+        line-height: 1.5;
+        display: block; 
+        margin-top: 0.9em; 
+        margin-bottom: 0.9em; 
+        margin-left: 0; 
+        margin-right: 0;
+        font-size: 1em;
+    }
+
+    .aboutsection {
+        display: flex;
+        flex-direction: column;
+        background: #0E1428;
+        width: 60%;
+        height: 35em;
+        padding-top: 50px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: -20px;
+        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+        line-height: 1.4;
+        align-items: flex-end;
+    } 
+    
+    .aboutsection h2 {
+        width: 12em;
+    }
+    
+    .list {
+        color: #0E1428;
+        width: 25em;
+        margin-top: 20px;
+        margin-left: -23px;
+    }
+
+    .nav {
+        font-size: 10px;
+        background: #0E1428;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: justify;
+        list-style: none;
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .nav li {
+        position: relative;
+        color: #FEE3C3;
+        list-style: none;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picturesection {
+        display: flex;
+        flex-direction: column;
+        background: #FEE3C3;
+        width: 40%;
+        height: 35em;
+        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+        padding: 10px;
+    }
+
+    .picturesection h5 {
+        font-size: 10px;
+        width: 10em;
+    }
+
+    .picturesection ul {
+        list-style: none;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 768px ) { 
+    * {
+        font-smooth: auto;
+        -webkit-font-smoothing: antialiased;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+
+    h1, h2, h3, h4, h5 {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.5;
+        display: block; 
+        margin-top: 0.9em; 
+        margin-bottom: 0.9em; 
+        margin-left: 0; 
+        margin-right: 0;
+    }
+    
+    p {
+
+        color: #FEE3C3;
+        text-align: justify;
+        line-height: 1.5;
+        display: block; 
+        margin-top: 0.9em; 
+        margin-bottom: 0.9em; 
+        margin-left: 0; 
+        margin-right: 0;
+        font-size: 1em;
+    }
+
+    .aboutsection {
+        display: flex;
+        flex-direction: column;
+        background: #0E1428;
+        width: 60%;
+        height: 35em;
+        padding-top: 50px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-bottom: -20px;
+        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+        line-height: 1.4;
+        align-items: flex-end;
+    } 
+    
+    .list {
+        color: #0E1428;
+        width: 25em;
+        margin-top: 20px;
+        margin-left: -23px;
+    }
+
+    .nav {
+        font-size: 11px;
+        background: #0E1428;
+        display: flex;
+        flex-flow: nowrap;
+        align-items: justify;
+        list-style: none;
+        width: 100%;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .nav li {
+        position: relative;
+        color: #FEE3C3;
+        list-style: none;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .picturesection {
+        display: flex;
+        flex-direction: column;
+        background: #FEE3C3;
+        width: 40%;
+        height: 35em;
+        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+        padding: 10px;
+    }
+
+    .picturesection h5 {
+        font-size: 11px;
+        width: 17em;
+    }
+
+    .picturesection ul {
+        list-style: none;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media  (min-width: 1400px) {
+
+ }

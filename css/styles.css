@@ -28,8 +28,8 @@ body {
   font-family: 'Sora', Helvetica, sans-serif;
   line-height: normal;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 footer {
@@ -56,6 +56,12 @@ html {
   bottom: 0;
   height: 100%;
   width: 100%;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 main {
@@ -280,6 +286,25 @@ p {
   border: #FEE3C3 3px solid;
 }
 
+/*
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+*/
+
+
 .introh1 {
   margin-right: 40px;
 }
@@ -309,7 +334,7 @@ p {
   height: 35em;
   box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
   padding: 10px;
-  margin-left: 27em;
+  margin-left: auto;
 }
 
 .picturesection h3 {
@@ -398,7 +423,14 @@ p {
 .portfoliosection img {
   padding-left: auto;
   padding-right: auto;
-  width: 603px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.portfoliosection iframe {
+  padding-left: auto;
+  padding-right: auto;
+  width: 400px;
   object-fit: cover;
 }
 
