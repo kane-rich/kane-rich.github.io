@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;600&display=swap');
+* {
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+aside {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 45px;
+  padding-bottom: 70px;
+  align-items: center;
+}
+
+body {
+  background: #d95d39;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: 'Sora', Helvetica, sans-serif;
+  line-height: normal;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background: #0E1428;
+  margin-left: 0px;
+  margin-right: 00px;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+  height: 25em;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  line-height: 1.5;
+  display: block; 
+  margin-top: 0.9em; 
+  margin-bottom: 0.9em; 
+  margin-left: 0; 
+  margin-right: 0;
+}
+
+html {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex: 100%;
+  flex-direction: row;
+  row-gap: 20px;
+  width: 100%;
+  top: -2em;
+  margin-top: 0px;
+}
+
+nav {
+  background: #0E1428;
+  margin: 0px;
+  box-shadow: rgba(33, 35, 38, 0.3) 0px 10px 10px -10px;
+  width: 100%;
+}
+
+nav li {
+  position: relative;
+  color: #FEE3C3;
+  list-style: none;
+  font-weight: 300;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
+nav li:hover {
+  color: #0E1428;
+  background: #FEE3C3;
+  transition: .5s;
+}
+
+p {
+  color: #FEE3C3;
+  text-align: justify;
+  line-height: 1.5;
+  display: block; 
+  margin-top: 0.9em; 
+  margin-bottom: 0.9em; 
+  margin-left: 0; 
+  margin-right: 0;
+  font-size: 1.1em;
+}
+
+.aboutsection {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  background:  #0E1428;
+  width: 25%;
+  height: 50vh;
+  /*
+  flex-grow: 1;
+  */
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: -20px;
+  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.aboutsection h2 {
+  width: 20em;
+  font-weight: 400;
+  color: #d95d39;
+}
+
+.certifcationsection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px;
+  margin-bottom: 3em;
+  padding-top: 50px;
+  color: #FEE3C3;
+  height: 19em;
+  align-content: space-evenly;
+}
+
+.certifcationsection img {
+  width: 17em;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.copycertifcationsection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #0E1428;
+  color: #FEE3C3;
+  margin-top: 17px;
+  padding-top: 50px;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+  height: 25em;
+  align-content: space-around;
+}
+
+.copycertifcationsection img {
+  width: 12em;
+  object-fit: cover;
+  padding-right: 3em;
+  padding-top: 3.2em;
+}
+
+.copycopycertifcationsection {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #FEE3C3;
+  margin-top: 17px;
+  padding-top: 32px;
+  height: 24.5em;
+  align-content: space-around;
+}
+
+.copycopycertifcationsection img {
+  width: 23em;
+  object-fit: cover;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
+.date {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+.diplomaux {
+  position: relative;
+  width: 100%;
+}
+
+.designskillh3, .marketingskillh3, .photographyskillh3, .softskillh3, .uxskillh3, .webskillh3, .writingskillh3 {
+  color: #0E1428;
+}
+
+.designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
+  padding: 6px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+
+.flexchild {
+  display: block;
+}
+
+.footerend {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-flow: nowrap;
+  column-gap: 10em;
+  background: #0E1428;
+  color: #FFFFFF;
+  margin-left: 0.9em;
+  margin-right: 0.9em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 1.7em;
+  padding-bottom: 0em;
+  padding-right: 2em;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+  height: 5em;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.headercream {
+  display: block;
+  position: absolute;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  left: 1em;
+  color: #FEE3C3;
+}
+
+.headerorange {
+  display: block;
+  position: absolute;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  left: 1em;
+  color: #d95d39;
+}
+
+.headerdark {
+  display: block;
+  width: 100vw;
+  position: absolute;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  left: 0;
+  color: #FEE3C3;
+  background: #0E1428;
+}
+
+.headerdark h2 {
+  margin-left: 0.9em;
+  color: #d95d39
+}
+
+.headerdark h3 {
+  margin-left: 1.2em;
+  color: #FEE3C3;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.homepagepic {
+  width: 30%;
+  border: #FEE3C3 3px solid;
+}
+
+.introh1 {
+  margin-right: 40px;
+}
+
+.lower-navigation {
+  font-weight: 600;
+  font-size: 20px;
+  list-style: none;
+  margin-left: -39px;
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+
+.picturesection {
+  display: flex;
+  flex-direction: column;
+  background:  #FEE3C3;
+  width: 20%;
+  height: 80vh;
+  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picturesection h3 {
+  color: #0E1428;
+  size: 2em;
+  padding: 0px 20px 0px 20px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: normal;
+}
+
+.picturesection > img {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.picturebackground {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px white;
+  height: 50%;
+  width: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.portfoliosection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  column-gap: 7em;
+  row-gap: 4em;
+  background: #0E1428;
+  margin: 0px;
+  margin-bottom: 30px;
+  color:  #FEE3C3;
+  width: 100vw;
+  height: 80%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 4em;
+  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  justify-content: space-around;
+}
+
+.portfoliosection2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  column-gap: 7em;
+  row-gap: 4em;
+  background: #0E1428;
+  margin: 0px;
+  margin-bottom: 30px;
+  color:  #FEE3C3;
+  width: 100vw;
+  height: 80%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 4em;
+  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  justify-content: space-around;
+}
+
+.portfoliosection h2 {
+  color: #d95d39;
+}
+
+.portfoliosection, .portfoliosection2 h3 {
+  color: #FEE3C3;
+}
+
+.portfoliosection h4 {
+  color: #FFFFFF;
+}
+
+.portfoliosection img {
+  padding-left: auto;
+  padding-right: auto;
+  width: 603px;
+  object-fit: cover;
+}
+
+.quoteattribution h4 {
+  padding: 0px 0px 0px 20px;
+  color: #0E1428;
+}
+
+.nav {
+  background: #0E1428;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: justify;
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+}
+
+.strapline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skillsetsection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 10em;
+  background: #d95d39;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #0E1428;
+  width: 100%;
+  height: 30%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: -20px;
+  justify-content: center;
+}
+
+.skillsetsection > span {
+  margin-left: -10px;
+}
+
+.skillsetsection > h2 {
+  color: #FEE3C3; 
+  margin-top: -10px;
+}
+
+.timelinesection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 107px;
+  background: #0E1428;
+  margin: 0px;
+  margin-bottom: 20px;
+  color: #FEE3C3;
+  width: 100%;
+  height: 47em;
+  padding-top: 5em;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: -20px;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
+  justify-content: space-evenly;
+  font-size: 1em;
+}
+
+.timelinesection > div {
+  position: relative;
+  display: block;
+  margin-left: -3.25em;
+  margin-right: 1.2em;
+  margin-top: -3em;
+}
+
+.timelinesection h2 {
+  color: #d95d39;
+  font-size: x-large;
+}
+
+.thumbnail-futurform {
+  width: 600px;
+  height: 415px;
+}
+
+.uxportfolio {
+  background: #0E1428;
+  margin-top: 50px;
+  margin-left: 1em;
+  color:#d95d39;
+}
+
+.webportfolio {
+  display: block;
+  position: relative;
+  margin-left: 8.7em;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: -40px;
+}
+
+.webportfoliodiv {
+  margin-bottom: 50px;
+}
+
+#copywritingdiploma {
+  width: 29.4em;
+  object-fit: cover;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#seodiploma {
+  width: 29.5em;
+  object-fit: cover;
+  padding-top: 10px;
+  padding-left: 106px;
+}  
