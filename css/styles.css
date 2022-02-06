@@ -265,6 +265,7 @@ p {
   padding-left: 45px;
   color: #FEE3C3;
   background: #0E1428;
+  z-index: 1;
 }
 
 .headerdark h2 {
@@ -285,25 +286,6 @@ p {
   width: 30%;
   border: #FEE3C3 3px solid;
 }
-
-/*
-.iframe-container {
-  overflow: hidden;
-  /* 16:9 aspect ratio
-  padding-top: 56.25%;
-  position: relative;
-}
-
-.iframe-container iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
-*/
-
 
 .introh1 {
   margin-right: 40px;
@@ -379,7 +361,7 @@ p {
   color:  #FEE3C3;
   width: 100vw;
   height: 80%;
-  padding-top: 20px;
+  padding-top: 165px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 4em;
@@ -397,14 +379,14 @@ p {
   background: #0E1428;
   margin: 0px;
   margin-bottom: 45px;
-  color:  #FEE3C3;
+  color: #FEE3C3;
   width: 100vw;
   height: 80%;
-  padding-top: 20px;
+  padding-top: 82px;
   padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 4em;
-  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
   justify-content: space-around;
 }
 
@@ -420,17 +402,23 @@ p {
   color: #FFFFFF;
 }
 
-.portfoliosection img {
+.portfoliouximage > img {
   padding-left: auto;
   padding-right: auto;
-  width: 400px;
+  width: 70em;
   object-fit: cover;
+}
+
+.portfoliouximage > h3 {
+  padding-left: 3.5em;
+  padding-bottom: 1.5em;
 }
 
 .portfoliosection iframe {
   padding-left: auto;
   padding-right: auto;
-  width: 400px;
+  width: 600px;
+  height: 414px;
   object-fit: cover;
 }
 
@@ -520,13 +508,15 @@ p {
 .thumbnail-futurform {
   width: 600px;
   height: 415px;
+  object-fit: cover;
 }
 
 .uxportfolio {
   background: #0E1428;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-left: 1em;
   color:#d95d39;
+  z-index: 1;
 }
 
 .webportfolio {

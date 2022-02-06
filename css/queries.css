@@ -7,7 +7,7 @@
         box-sizing: border-box;
       }
 
-    h1, h2, h3, h4, h5 {
+    h1, h2 {
         font-size: 15px;
         font-weight: 600;
         line-height: 1.5;
@@ -15,6 +15,17 @@
         margin-top: 0.9em; 
         margin-bottom: 0.9em; 
         margin-left: 0; 
+        margin-right: 0;
+    }
+    
+        h3, h4, h5 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.5;
+        display: block;
+        margin-top: -1em;
+        margin-bottom: 2em;
+        margin-left: 0;
         margin-right: 0;
     }
     
@@ -47,6 +58,27 @@
     
     .aboutsection h2 {
         width: 12em;
+    }
+
+    .headercream {
+        padding-left: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .headerdark h2 {
+        margin-left: -25px;
+    }
+    
+    .headerdark h3 {
+        margin-left: -25px;
+        margin-top: 10px;
+    }
+
+    .headerorange {
+        left: 20px;
+        padding-top: 25px;
     }
     
     .list {
@@ -94,6 +126,76 @@
 
     .picturesection ul {
         list-style: none;
+    }
+
+    .portfoliosection iframe {
+        padding-left: auto;
+        padding-right: auto;
+        width: 300px;
+        height: 214px;
+        object-fit: cover;
+      }
+
+    .portfoliosection img {
+        padding-left: auto;
+        padding-right: auto;
+        width: 300px;
+        height: 214px;
+        object-fit: cover;
+      }
+
+    .portfoliosection2 {
+        margin-bottom: 20px;
+    }
+
+    .skillsetsection {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 12em;
+        background: #d95d39;
+        margin: 29px;
+        margin-top: -10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+        color: #0E1428;
+        width: 100%;
+        height: 30%;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 95px;
+        padding-bottom: -20px;
+        justify-content: flex-start;
+    }
+
+    .skillsetsection > span {
+        margin-left: -81px;
+    }
+
+    .timelinesection {
+        justify-content: flex-start;
+        padding-top: 6em;
+        height: 70em;
+    }
+
+    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
+        padding: 6px;
+        margin-top: -5px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+    }
+
+    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
+        align-items: center;
+    }
+
+    .uxportfolio {
+    margin-left: 0px;
+    }
+
+    .webskillh3 {
+        margin-top: 50px;
     }
 }
 
