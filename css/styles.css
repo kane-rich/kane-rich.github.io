@@ -10,6 +10,25 @@ a {
   color: #FFFFFF;
 }
 
+a:link {
+  color: #FEE3C3;
+}
+
+/* visited link */
+a:visited {
+  color: #d95d39;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: #FEE3C3;
+}
+
 aside {
   display: flex;
   flex-grow: 1;
@@ -90,6 +109,7 @@ nav li {
   font-weight: 300;
   margin-left: 42px;
   margin-right: 42px;
+  font-size: 14px;
 }
 
 nav li:hover {
