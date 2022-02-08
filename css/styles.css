@@ -21,7 +21,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: #0E1428;
 }
 
 /* selected link */
@@ -110,6 +110,7 @@ nav li {
   margin-left: 42px;
   margin-right: 42px;
   font-size: 14px;
+  text-decoration: none;
 }
 
 nav li:hover {
