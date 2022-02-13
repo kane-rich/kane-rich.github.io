@@ -100,7 +100,7 @@
     
     .list {
         color: #0E1428;
-        width: 25em;
+        width: 9em;
         margin-top: 20px;
         margin-left: -36px;
     }
@@ -657,7 +657,7 @@
       }
 
     h1, h2 {
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 1.5;
         display: block; 
@@ -668,7 +668,7 @@
     }
 
     h3, h4, h5 {
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 600;
         line-height: 1.5;
         display: block;
@@ -878,7 +878,7 @@ h1, h2 {
 }
 
 h3, h4, h5 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 1.5;
     display: block;
