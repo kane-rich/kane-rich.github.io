@@ -121,7 +121,7 @@ nav li:hover {
 
 p {
   color: #FEE3C3;
-  text-align: justify;
+  text-align: end;
   line-height: 1.5;
   display: block; 
   margin-top: 0.9em; 
@@ -309,7 +309,7 @@ p {
 }
 
 .introh1 {
-  margin-right: 40px;
+  margin-right: 90px;
 }
 
 .list {
@@ -460,10 +460,33 @@ p {
   padding: 20px;
 }
 
+.nav a:link {
+  color: #FEE3C3;
+  text-decoration: none;
+}
+
+/* visited link */
+.nav a:visited {
+  color: #d95d39;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.nav a:hover {
+  color: #0E1428;
+  text-decoration: none;
+}
+
+/* selected link */
+.nav a:active {
+  color: #FEE3C3;
+  text-decoration: none;
+}
+
 .strapline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
 }
 
 .skillsetsection {

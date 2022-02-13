@@ -192,6 +192,11 @@
         margin-left: -81px;
     }
 
+    .strapline {
+      font-size: 12px;
+      display: block;
+    }
+
     .timelinesection {
         justify-content: flex-start;
         padding-top: 6em;
@@ -775,7 +780,7 @@
       display: flex;
       flex-direction: column;
       background: #FEE3C3;
-      width: 20%;
+      width: 25%;
       height: 35em;
       box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
       padding: 10px;
@@ -862,7 +867,7 @@
   }
 
 h1, h2 {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
     display: block; 
@@ -1355,7 +1360,7 @@ margin-left: 0px;
       }
       
       .introh1 {
-        margin-right: 40px;
+        margin-right: -20px;
       }
       
       .list {
