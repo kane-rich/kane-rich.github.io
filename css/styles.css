@@ -589,3 +589,36 @@ p {
   padding-top: 10px;
   padding-left: 106px;
 }  
+
+/* ABOUT PAGE STYLING */
+
+.aboutpage p {
+  text-align: left;
+  margin-top: 0em;
+}
+
+/*
+.aboutpage aside {
+  align-items: left;
+} */
+
+.box1--dark {
+  background: #0E1428;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.box2--light {
+  display: flex;
+  flex-direction: column;
+  background: #FEE3C3;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+} 
+
