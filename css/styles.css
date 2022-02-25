@@ -312,6 +312,29 @@ p {
   margin-right: 63px;
 }
 
+.iframe {
+    padding-left: auto;
+    padding-right: auto;
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+    zoom: 1;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+}
+
+.iframecontainer {
+  width: 800px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
 .list {
   color: #0E1428;
   width: 22em;
@@ -401,7 +424,7 @@ p {
   margin: 0px;
   margin-bottom: 45px;
   color: #FEE3C3;
-  width: 100vw;
+  width: 100%;
   height: 80%;
   padding-top: 82px;
   padding-right: 20px;
@@ -421,6 +444,10 @@ p {
 
 .portfoliosection h4 {
   color: #FFFFFF;
+}
+
+.portfoliouximage a {
+  width: 20%;
 }
 
 .portfoliouximage > img {
@@ -555,14 +582,6 @@ p {
   object-fit: cover;
 }
 
-.uxportfolio {
-  background: #0E1428;
-  margin-top: 0px;
-  margin-left: 1em;
-  color:#d95d39;
-  z-index: 1;
-}
-
 .webportfolio {
   display: block;
   position: relative;
@@ -615,10 +634,55 @@ p {
   display: flex;
   flex-direction: column;
   background: #FEE3C3;
-  margin-top: 0px;
+  margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   padding: 20px;
 } 
 
+/* UX PORTFOLIO PAGE STYLING */
+
+.ux p {
+  text-align: left;
+  margin-top: 0em;
+  color: #0E1428;
+  font-weight: 600;
+}
+
+.uxlist {
+  font-size: 20px;
+} 
+
+.uxportfolio {
+  background: #0E1428;
+  margin-top: 0px;
+  margin-left: 1em;
+  color:#d95d39;
+  z-index: 1;
+}
+
+/*
+.aboutpage aside {
+  align-items: left;
+} */
+
+.box1--dark-ux {
+  background: #0E1428;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+}
+
+.box2--light-ux {
+  display: flex;
+  flex-direction: column;
+  background: #d95d39;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 20px;
+} 
