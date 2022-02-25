@@ -328,7 +328,7 @@ p {
 }
 
 .iframecontainer {
-  width: 800px;
+  width: 80%;
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -643,29 +643,17 @@ p {
 
 /* UX PORTFOLIO PAGE STYLING */
 
-.ux p {
-  text-align: left;
-  margin-top: 0em;
-  color: #0E1428;
-  font-weight: 600;
-}
-
-.uxlist {
-  font-size: 20px;
-} 
-
-.uxportfolio {
+.box1--dark h1 {
   background: #0E1428;
   margin-top: 0px;
-  margin-left: 1em;
+  margin-left: 0em;
   color:#d95d39;
   z-index: 1;
 }
 
-/*
-.aboutpage aside {
-  align-items: left;
-} */
+.box1--dark h3 {
+  color:#FEE3C3;
+}
 
 .box1--dark-ux {
   background: #0E1428;
@@ -685,4 +673,73 @@ p {
   margin-right: auto;
   width: 80%;
   padding: 20px;
+}
+
+.portfoliopagesection {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  flex-grow: 0;
+  column-gap: 7em;
+  row-gap: 4em;
+  background: #0E1428;
+  margin: 0px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FEE3C3;
+  width: 80%;
+  height: 80%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 4em;
+  box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
+  justify-content: space-around;
+}
+
+.portfoliopagesection a {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.portfoliopagesection a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.portfoliopagesection a:link {
+  color: #FEE3C3;
+}
+
+/* visited link */
+.portfoliopagesection a:visited {
+  color: #d95d39;
+}
+
+/* mouse over link */
+.portfoliopagesection a:hover {
+  color: #FEE3C3;
+}
+
+/* selected link */
+.portfoliopagesection a:active {
+  color: #FEE3C3;
+  
+}
+
+.portfoliopagesection img {
+  width: 100%;
+}
+
+.ux p {
+  text-align: left;
+  margin-top: 0em;
+  color: #0E1428;
+  font-weight: 600;
+}
+
+.uxlist {
+  font-size: 20px;
+  color: #FEE3C3;
 } 
