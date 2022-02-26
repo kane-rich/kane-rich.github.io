@@ -70,6 +70,11 @@ h1, h2, h3, h4, h5 {
   margin-right: 0;
 }
 
+hr {
+  width: 123px;
+  margin-top: 2px;
+}
+
 html {
   top: 0;
   bottom: 0;
@@ -327,25 +332,6 @@ p {
   margin-left: -39px;
   margin-bottom: 80px;
   margin-top: -40px;
-}
-
-.prototypediv {
-  width: 80vw;
-  margin: -20px;
-}
-
-.pdf {
-  width: 100%;
-  height: 80%;
-  object-fit: cover;
-}
-
-.pdfwrapper {
-  width: 100%;
-  height: 90em;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
 }
 
 .picturesection {
@@ -689,11 +675,40 @@ p {
 }
 
 .iframecontainer {
-  width: 95em;
+  width: 96em;
   height: 760px;
   margin-left: 14.5%;
   margin-right: 0%;
   overflow: hidden;
+}
+
+.miroh3 {
+  margin-left: -223px;
+}
+
+.prototypediv {
+  width: 80vw;
+  margin: -20px;
+  margin-bottom: 7em;
+}
+
+.pdf {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.pdfwrapper {
+  width: 100%;
+  height: 90em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -8em;
+  position: relative;
+}
+
+.pdfwrapper h3 {
+  margin-left: -223px;
 }
 
 .portfoliopagesection {
@@ -753,11 +768,24 @@ p {
   width: 100%;
 }
 
+.testheader {
+  margin-top: 80px;
+  padding-left: 80px;
+}
+
+.testheader h2, h3 {
+  padding-left: 222px;
+}
+
 .ux p {
   text-align: left;
   margin-top: 0em;
   color: #0E1428;
   font-weight: 600;
+}
+
+.uxheader > h2, h3 {
+  padding-left: 222px;
 }
 
 .uxlist {
