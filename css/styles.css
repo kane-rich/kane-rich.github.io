@@ -614,6 +614,7 @@ p {
   margin-right: auto;
   width: 80%;
   padding: 20px;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
 }
 
 .box2--light {
@@ -635,6 +636,7 @@ p {
   margin-left: 0em;
   color:#d95d39;
   z-index: 1;
+  
 }
 
 .box1--dark h3 {
@@ -648,6 +650,7 @@ p {
   margin-right: auto;
   width: 80%;
   padding: 20px;
+  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
 }
 
 .box2--light-ux {
