@@ -146,23 +146,23 @@
     }
 
     .picturesection ul {
-        list-style: none;
+      list-style: none;
     }
 
     .portfoliosection iframe {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
-      }
+      padding-left: auto;
+      padding-right: auto;
+      width: 300px;
+      height: 214px;
+      object-fit: cover;
+    }
 
     .portfoliosection img {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
+      padding-left: auto;
+      padding-right: auto;
+      width: 300px;
+      height: 214px;
+      object-fit: cover;
       }
 
     .portfoliosection2 {

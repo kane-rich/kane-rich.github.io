@@ -136,167 +136,6 @@
         margin-top: 10px;
         font-size: 20px;
     }
-
-    /* HOMEPAGE */
-
-    /* .aboutsection {
-        display: flex;
-        flex-direction: column;
-        background: #0E1428;
-        width: 60%;
-        height: 37em;
-        padding-top: 50px;
-        padding-right: 25px;
-        padding-left: 25px;
-        padding-bottom: -20px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        line-height: 1.4;
-        align-items: flex-end;
-    } 
-    
-    .aboutsection h2 {
-        width: 11em;
-        font-size: 13px;
-    }
-
-    .footerend {
-        padding-top: 0.9em;
-        align-items: baseline;
-    }
-
-    .footerend li {
-        font-size: small;
-    }
-
-    .footersocial img {
-        width: 1.2em;
-        padding-top: -1em;
-        padding-bottom: 0.9em;
-    }
-
-    .headercream {
-        padding-left: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .headerdark h2 {
-        margin-left: -25px;
-    }
-    
-    .headerdark h3 {
-        margin-left: -25px;
-        margin-top: 10px;
-    }
-
-    .headerorange {
-        left: 20px;
-        padding-top: 25px;
-    }
-    
-    .list {
-        color: #0E1428;
-        width: 9em;
-        margin-top: 20px;
-        margin-left: -36px;
-    }
-
-    .picturesection {
-        display: flex;
-        flex-direction: column;
-        background: #FEE3C3;
-        width: 40%;
-        height: 37em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        padding: 10px;
-    }
-
-    .picturesection h5 {
-      width: 12em;
-      padding-top: 10px;
-      font-size: 9px;
-    }
-
-    .picturesection ul {
-        list-style: none;
-    }
-
-    .portfoliosection iframe {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
-      }
-
-    .portfoliosection img {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
-      }
-
-    .portfoliosection2 {
-        margin-bottom: 20px;
-    }
-
-    .skillsetsection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 30em;
-        background: #d95d39;
-        margin: 29px;
-        margin-top: -10px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
-        color: #0E1428;
-        width: 100%;
-        height: 30%;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 95px;
-        padding-bottom: -20px;
-        justify-content: flex-start;
-    }
-
-    .skillsetsection > span {
-        margin-left: -81px;
-    }
-
-    .strapline {
-      font-size: 12px;
-      display: block;
-    }
-
-    .timelinesection {
-        justify-content: flex-start;
-        padding-top: 6em;
-        height: 80em;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-        padding: 6px;
-        margin-top: -5px;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
-        align-items: center;
-    }
-
-    .uxportfolio {
-    margin-left: 0px;
-    }
-
-    .webskillh3 {
-        margin-top: 50px;
-    } */
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -369,15 +208,15 @@
     }
 
     .iframecontainer {
-        width: 29em;
-        height: 545px;
-        margin-left: 14.5%;
-        margin-right: 0%;
-        overflow: hidden;
+      width: 29em;
+      height: 545px;
+      margin-left: 14.5%;
+      margin-right: 0%;
+      overflow: hidden;
     }
 
     .iframe {
-        height: 533px;
+      height: 533px;
     }
 
     .mobileportfoliolinks {
@@ -392,240 +231,63 @@
   }
 
     .nav {
-        font-size: 10px;
-        background: #0E1428;
-        display: flex;
-        flex-flow: wrap;
-        align-items: justify;
-        list-style: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px;
+      font-size: 10px;
+      background: #0E1428;
+      display: flex;
+      flex-flow: wrap;
+      align-items: justify;
+      list-style: none;
+      width: 100%;
+      margin: 0px;
+      padding: 20px;
     }
 
     .nav li {
-        position: relative;
-        color: #FEE3C3;
-        list-style: none;
-        font-weight: 300;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 11px;
-        padding: 6px;
+      position: relative;
+      color: #FEE3C3;
+      list-style: none;
+      font-weight: 300;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 11px;
+      padding: 6px;
     }
 
     .portfoliopagesection {
-        display: none;
-        padding-bottom: 20px;
+      display: none;
+      padding-bottom: 20px;
     }
 
     .pdf {
-        width: 100%;
+      width: 100%;
     }
 
     .pdfwrapper {
-        width: 158%;
+      width: 158%;
     }
 
     .prototypediv {
-        /* margin-bottom: -8em; */
-        display: none;
+      /* margin-bottom: -8em; */
+      display: none;
     }
 
     .uxheader h2 {
-        padding-left: 70px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        font-size: 20px;
+      padding-left: 70px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 20px;
     }
-
-    /* HOMEPAGE */
-
-    /* .aboutsection {
-        display: flex;
-        flex-direction: column;
-        background: #0E1428;
-        width: 60%;
-        height: 37em;
-        padding-top: 50px;
-        padding-right: 25px;
-        padding-left: 25px;
-        padding-bottom: -20px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        line-height: 1.4;
-        align-items: flex-end;
-    } 
-
-    .aboutsection h2 {
-        width: 12em;
-    }
-
-    .footerend {
-        padding-top: 0.9em;
-        align-items: baseline;
-    }
-
-    .footerend li {
-        font-size: small;
-    }
-
-    .footersocial img {
-        width: 1.2em;
-        padding-top: -1em;
-        padding-bottom: 0.9em;
-    }
-
-    .headercream {
-        padding-left: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .headerdark h2 {
-        margin-left: -25px;
-    }
-    
-    .headerdark h3 {
-        margin-left: -25px;
-        margin-top: 10px;
-    }
-
-    .headerorange {
-        left: 20px;
-        padding-top: 25px;
-    }
-    
-    .list {
-        color: #0E1428;
-        width: 25em;
-        margin-top: 20px;
-        margin-left: -38x;
-    }
-
-    .nav {
-        font-size: 11px;
-        background: #0E1428;
-        display: flex;
-        flex-flow: nowrap;
-        align-items: justify;
-        list-style: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px;
-    }
-
-    .nav li {
-        position: relative;
-        color: #FEE3C3;
-        list-style: none;
-        font-weight: 300;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .picturesection {
-        display: flex;
-        flex-direction: column;
-        background: #FEE3C3;
-        width: 40%;
-        height: 37em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        padding: 10px;
-    }
-
-    .picturesection h5 {
-        font-size: 11px;
-        width: 14em;
-    }
-
-    .picturesection ul {
-        list-style: none;
-    }
-
-    .portfoliosection iframe {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
-      }
-
-    .portfoliosection img {
-        padding-left: auto;
-        padding-right: auto;
-        width: 300px;
-        height: 214px;
-        object-fit: cover;
-      }
-
-    .portfoliosection2 {
-        margin-bottom: 20px;
-    }
-
-    .skillsetsection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 15em;
-        background: #d95d39;
-        margin: 29px;
-        margin-top: -10px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
-        color: #0E1428;
-        width: 100%;
-        height: 30%;
-        padding-top: 33px;
-        padding-right: 20px;
-        padding-left: 95px;
-        padding-bottom: -20px;
-        justify-content: space-evenly;
-        align-items: baseline;
-        row-gap: 3em;
-    }
-
-    .skillsetsection > span {
-        margin-left: -81px;
-    }
-
-    .timelinesection {
-        justify-content: flex-start;
-        padding-top: 6em;
-        height: 80em;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-        padding: 6px;
-        margin-top: -5px;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
-      align-items: center;
-    }
-
-    .uxportfolio {
-      margin-left: 0px;
-    }
-
-    .webskillh3 {
-      margin-top: 50px;
-    } */
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) { 
     * {
-        font-smooth: auto;
-        -webkit-font-smoothing: antialiased;
-        margin: 0px;
-        box-sizing: border-box;
-      }
+      font-smooth: auto;
+      -webkit-font-smoothing: antialiased;
+      margin: 0px;
+      box-sizing: border-box;
+    }
 
     a {
         color: #FFFFFF;
@@ -759,168 +421,6 @@
         margin-top: 10px;
         font-size: 20px;
     }
-
-    /* HOMEPAGE */
-
-    /* .aboutsection {
-        display: flex;
-        flex-direction: column;
-        background: #0E1428;
-        width: 60%;
-        height: 35em;
-        padding-top: 50px;
-        padding-right: 25px;
-        padding-left: 25px;
-        padding-bottom: -20px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        line-height: 1.4;
-        align-items: flex-end;
-    } 
-
-    .aboutsection h2 {
-        width: 20em;
-        font-size: 19px;
-    }
-
-    .footerend {
-        padding-top: 0.9em;
-        align-items: baseline;
-    }
-
-    .footerend li {
-        font-size: small;
-    }
-
-    .footersocial img {
-        width: 1.2em;
-        padding-top: -1em;
-        padding-bottom: 0.9em;
-    }
-
-    .headercream {
-        padding-left: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .headerdark h2 {
-        margin-left: -25px;
-    }
-    
-    .headerdark h3 {
-        margin-left: -25px;
-        margin-top: 10px;
-    }
-
-    .headerorange {
-        left: 20px;
-        padding-top: 25px;
-    }
-    
-    .list {
-        color: #0E1428;
-        width: 25em;
-        margin-top: auto;
-        margin-left: auto;
-    }
-
-    .nav {
-        font-size: 11px;
-        background: #0E1428;
-        display: flex;
-        flex-flow: nowrap;
-        align-items: justify;
-        list-style: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px;
-    }
-
-    .nav li {
-        position: relative;
-        color: #FEE3C3;
-        list-style: none;
-        font-weight: 300;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .picturesection {
-        display: flex;
-        flex-direction: column;
-        background: #FEE3C3;
-        width: 40%;
-        height: 35em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        padding: 10px;
-    }
-
-    .picturesection h5 {
-      font-size: 11px;
-      width: 22em;
-    }
-
-    .picturesection ul {
-        list-style: none;
-    }
-
-    .portfoliosection2 {
-        margin-bottom: 20px;
-    }
-
-    .skillsetsection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 15em;
-        background: #d95d39;
-        margin: 29px;
-        margin-top: -10px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
-        color: #0E1428;
-        width: 100%;
-        height: 30%;
-        padding-top: 33px;
-        padding-right: 20px;
-        padding-left: 95px;
-        padding-bottom: -20px;
-        justify-content: space-evenly;
-        align-items: baseline;
-        row-gap: 3em;
-    }
-
-    .skillsetsection > span {
-        margin-left: -81px;
-    }
-
-    .timelinesection {
-        justify-content: flex-start;
-        padding-top: 6em;
-        height: 80em;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-        padding: 6px;
-        margin-top: -5px;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
-        align-items: center;
-    }
-
-    .uxportfolio {
-    margin-left: 0px;
-    }
-
-    .webskillh3 {
-        margin-top: 50px;
-    } */
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -978,9 +478,9 @@
       display: unset;
     }
 
-    /* .mobileportfoliolinks {
+    .mobileportfoliolinks {
         display: none;
-    } */
+    }
 
     .portfoliopagesection {
         padding-bottom: 20px;
@@ -1003,175 +503,6 @@
         display: unset;
     }
   }
-
-
-    /* HOMEPAGE */
-
-    /* .aboutsection {
-      display: flex;
-      flex-direction: column;
-      background: #0E1428;
-      width: 42.3%;
-      height: 35em;
-      padding-top: 50px;
-      padding-right: 25px;
-      padding-left: 25px;
-      padding-bottom: -20px;
-      box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-      line-height: 1.4;
-      margin-right: auto;
-      align-items: flex-end;
-    } 
-
-    .aboutsection h2 {
-        width: 18em;
-        font-size: 1.2em;
-    }
-
-    .footerend {
-        padding-top: 0.9em;
-        align-items: baseline;
-    }
-
-    .footerend li {
-        font-size: small;
-    }
-
-    .footersocial img {
-        width: 1.2em;
-        padding-top: -1em;
-        padding-bottom: 0.9em;
-    }
-
-    .headercream {
-        padding-left: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-    }
-
-    .headerdark h2 {
-        margin-left: -25px;
-    }
-    
-    .headerdark h3 {
-        margin-left: -25px;
-        margin-top: 10px;
-    }
-
-    .headerorange {
-        left: 20px;
-        padding-top: 25px;
-    }
-    
-    .list {
-        color: #0E1428;
-        width: 25em;
-        margin-top: 20px;
-        margin-left: -23px;
-    }
-
-    .nav {
-        font-size: 11px;
-        background: #0E1428;
-        display: flex;
-        flex-flow: nowrap;
-        align-items: justify;
-        list-style: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px;
-    }
-
-    .nav li {
-        position: relative;
-        color: #FEE3C3;
-        list-style: none;
-        font-weight: 300;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .picturesection {
-      display: flex;
-      flex-direction: column;
-      background: #FEE3C3;
-      width: 25%;
-      height: 35em;
-      box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-      padding: 10px;
-      margin-left: auto;
-    }
-
-    .picturesection h5 {
-        font-size: 11px;
-        width: 17em;
-    }
-
-    .picturesection ul {
-        list-style: none;
-    }
-
-    .portfoliosection2 {
-        margin-bottom: 20px;
-    }
-
-    .skillsetsection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 5em;
-        background: #d95d39;
-        margin: 29px;
-        margin-top: -10px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 20px;
-        color: #0E1428;
-        width: 100%;
-        height: 30%;
-        padding-top: 33px;
-        padding-right: 20px;
-        padding-left: 95px;
-        padding-bottom: -20px;
-        justify-content: space-evenly;
-        align-items: baseline;
-        row-gap: 3em;
-    }
-
-    .skillsetsection > span {
-        margin-left: -81px;
-    }
-
-    .timelinesection {
-        justify-content: center;
-        padding-top: 6em;
-        height: 80em;
-    }
-
-    .timelinesection h4 {
-        margin-bottom: 1em;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-        padding: 6px;
-        margin-top: -5px;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-    }
-
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
-        align-items: center;
-    }
-
-    .uxportfolio {
-    margin-left: 0px;
-    }
-
-    .webskillh3 {
-        margin-top: 50px;
-    } */
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
@@ -1316,7 +647,7 @@ p {
   margin-left: -223px;
 }
 
-.portfoliopagesection {
+/* .portfoliopagesection {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
@@ -1337,7 +668,7 @@ p {
   padding-bottom: 4em;
   box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
   justify-content: space-around;
-}
+} */
 
 .portfoliopagesection a {
   margin-left: 20%;
@@ -1399,173 +730,6 @@ p {
   margin-bottom: 20px;
   } 
 
-/* HOMEPAGE */
-
-/* .aboutsection {
-  display: flex;
-  flex-direction: column;
-  background: #0E1428;
-  width: 42.3%;
-  height: 35em;
-  padding-top: 50px;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-bottom: -20px;
-  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-  line-height: 1.4;
-  margin-right: auto;
-  align-items: flex-end;
-} 
-
-.aboutsection h2 {
-    width: 19em;
-    font-size: 1.2em;
-}
-
-.footerend {
-    padding-top: 0.9em;
-    align-items: baseline;
-}
-
-.footerend li {
-    font-size: small;
-}
-
-.footersocial img {
-    width: 1.2em;
-    padding-top: -1em;
-    padding-bottom: 0.9em;
-}
-
-.headercream {
-    padding-left: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
-.headerdark h2 {
-    margin-left: -25px;
-}
-
-.headerdark h3 {
-    margin-left: -25px;
-    margin-top: 10px;
-}
-
-.headerorange {
-    left: 20px;
-    padding-top: 25px;
-}
-
-.list {
-    color: #0E1428;
-    width: 25em;
-    margin-top: 20px;
-    margin-left: -23px;
-}
-
-.nav {
-    font-size: 11px;
-    background: #0E1428;
-    display: flex;
-    flex-flow: nowrap;
-    align-items: justify;
-    list-style: none;
-    width: 100%;
-    margin: 0px;
-    padding: 20px;
-}
-
-.nav li {
-    position: relative;
-    color: #FEE3C3;
-    list-style: none;
-    font-weight: 300;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.picturesection {
-  display: flex;
-  flex-direction: column;
-  background: #FEE3C3;
-  width: 20%;
-  height: 35em;
-  box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-  padding: 10px;
-  margin-left: auto;
-}
-
-.picturesection h5 {
-  font-size: 11px;
-  width: 17em;
-}
-
-.picturesection ul {
-    list-style: none;
-}
-
-.portfoliosection2 {
-    margin-bottom: 20px;
-}
-
-.skillsetsection {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    column-gap: 13em;
-    background: #d95d39;
-    margin: 29px;
-    margin-top: -10px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
-    color: #0E1428;
-    width: 100%;
-    height: 30%;
-    padding-top: 33px;
-    padding-right: 20px;
-    padding-left: 95px;
-    padding-bottom: -20px;
-    justify-content: space-evenly;
-    align-items: baseline;
-    row-gap: 3em;
-}
-
-.skillsetsection > span {
-    margin-left: -81px;
-}
-
-.timelinesection {
-    justify-content: center;
-    padding-top: 6em;
-    height: 80em;
-}
-
-.timelinesection h4 {
-    margin-bottom: 1em;
-}
-
-.designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-    padding: 6px;
-    margin-top: -5px;
-    margin-bottom: 0px;
-    color: #FFFFFF;
-}
-
-.designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
-    align-items: center;
-}
-
-.uxportfolio {
-margin-left: 0px;
-}
-
-.webskillh3 {
-    margin-top: 50px;
-} */
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media  (min-width: 1400px) {
@@ -1686,7 +850,7 @@ margin-left: 0px;
     }
 
     .portfoliopagesection {
-        display: unset;
+        display: block;
         padding-bottom: 20px;
     }
     
@@ -1781,7 +945,7 @@ margin-left: 0px;
       margin-left: -223px;
     }
     
-    .portfoliopagesection {
+    /* .portfoliopagesection {
       display: flex;
       flex-wrap: nowrap;
       flex-direction: column;
@@ -1802,7 +966,7 @@ margin-left: 0px;
       padding-bottom: 4em;
       box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
       justify-content: space-around;
-    }
+    } */
     
     .portfoliopagesection a {
       margin-left: 20%;
@@ -1863,451 +1027,5 @@ margin-left: 0px;
       color: #FEE3C3;
       margin-bottom: 20px;
     } 
-  }
-
-      /* HOMEPAGE */
-/*       
-      .aboutsection {
-        display: flex;
-        flex-direction: column;
-        background: #0E1428;
-        width: 42.3%;
-        height: 35em;
-        padding-top: 50px;
-        padding-right: 25px;
-        padding-left: 25px;
-        padding-bottom: -20px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        line-height: 1.4;
-        margin-right: auto;
-        align-items: flex-end;
-        
-      }
-      
-      .aboutsection h2 {
-        width: 18em;
-        font-weight: 400;
-        color: #d95d39;
-        font-size: 1.5em;
-      }
-      
-      .certifcationsection {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        margin: 0px;
-        margin-bottom: 3em;
-        padding-top: 50px;
-        color: #FEE3C3;
-        height: 19em;
-        align-content: space-evenly;
-      }
-      
-      .certifcationsection img {
-        width: 17em;
-        object-fit: cover;
-        padding: 20px;
-      }
-      
-      .copycertifcationsection {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        background: #0E1428;
-        color: #FEE3C3;
-        margin-top: 17px;
-        padding-top: 50px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        height: 25em;
-        align-content: space-around;
-      }
-      
-      .copycertifcationsection img {
-        width: 12em;
-        object-fit: cover;
-        padding-right: 3em;
-        padding-top: 3.2em;
-      }
-      
-      .copycopycertifcationsection {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
-        color: #FEE3C3;
-        margin-top: 17px;
-        padding-top: 32px;
-        height: 24.5em;
-        align-content: space-around;
-      }
-      
-      .copycopycertifcationsection img {
-        width: 23em;
-        object-fit: cover;
-        padding-right: 1em;
-        padding-top: 1em;
-      }
-      
-      .date {
-        color: #FFFFFF;
-        font-weight: 400;
-      }
-      
-      .diplomaux {
-        position: relative;
-        width: 100%;
-      }
-      
-      .designskillh3, .marketingskillh3, .photographyskillh3, .softskillh3, .uxskillh3, .webskillh3, .writingskillh3 {
-        color: #0E1428;
-      }
-      
-      .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
-        padding: 6px;
-        margin-top: 50px;
-        margin-bottom: 0px;
-        color: #FFFFFF;
-      }
-      
-      .flexchild {
-        display: block;
-      }
-      
-      .footerend {
-        display: flex;
-        flex-direction: row;
-        flex-grow: 1;
-        flex-flow: nowrap;
-        column-gap: 10em;
-        background: #0E1428;
-        color: #FFFFFF;
-        margin-left: 0.9em;
-        margin-right: 0.9em;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: -3.3em;
-        padding-bottom: 0em;
-        padding-right: 2em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        height: 5em;
-        justify-content: space-between;
-        list-style: none;
-      }
-      
-      .headercream {
-        display: block;
-        position: absolute;
-        padding-top: 0px;
-        padding-bottom: 30px;
-        padding-left: 45px;
-        color: #FEE3C3;
-      }
-      
-      .headerorange {
-        display: block;
-        position: absolute;
-        padding-top: 45px;
-        padding-bottom: 45px;
-        left: 45px;
-        color: #d95d39;
-      }
-      
-      .headerdark {
-        display: block;
-        width: 100vw;
-        position: absolute;
-        padding-top: 45px;
-        padding-bottom: 30px;
-        padding-left: 45px;
-        color: #FEE3C3;
-        background: #0E1428;
-        z-index: 1;
-      }
-      
-      .headerdark h2 {
-        color: #d95d39;
-        display: inline;
-        margin: 0px;
-      }
-      
-      .headerdark h3 {
-        margin-left: 1.2em;
-        color: #FEE3C3;
-      }
-      
-      .hidden {
-        visibility: hidden;
-      }
-      
-      .homepagepic {
-        width: 30%;
-        border: #FEE3C3 3px solid;
-      }
-      
-      .introh1 {
-        margin-right: -20px;
-      }
-      
-      .list {
-        color: #0E1428;
-        width: 22em;
-        margin-top: 20px;
-        margin-right: auto;
-      }
-      
-      .lower-navigation {
-        font-weight: 600;
-        font-size: 20px;
-        list-style: none;
-        margin-left: -39px;
-        margin-bottom: 80px;
-        margin-top: -40px;
-      }
-      
-      .picturesection {
-        display: flex;
-        flex-direction: column;
-        background: #FEE3C3;
-        width: 20%;
-        height: 35em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        padding: 10px;
-        margin-left: auto;
-      }
-      
-      .picturesection h3 {
-        color: #0E1428;
-        size: 2em;
-        padding: 0px 20px 0px 20px;
-        font-weight: 400;
-        font-style: italic;
-        line-height: normal;
-      }
-
-
-      .picturesection h5 {
-        font-size: 12px;
-        width: 20em;
-    }
-      
-      .picturesection > img {
-        width: 200px;
-        height: 280px;
-        object-fit: cover;
-        padding: 20px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      
-      .picturebackground {
-        display: flex;
-        flex-direction: column;
-        border: solid 3px white;
-        height: 50%;
-        width: 50%;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 15px;
-      }
-      
-      .portfoliosection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        flex-grow: 1;
-        column-gap: 7em;
-        row-gap: 4em;
-        background: #0E1428;
-        margin: 0px;
-        margin-bottom: 30px;
-        color:  #FEE3C3;
-        width: 100vw;
-        height: 80%;
-        padding-top: 165px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: 4em;
-        box-shadow: 6px 5px 5px 1px rgba(0,0,0,0.2);
-        justify-content: space-around;
-      }
-      
-      .portfoliosection2 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        flex-grow: 1;
-        column-gap: 7em;
-        row-gap: 4em;
-        background: #0E1428;
-        margin: 0px;
-        margin-bottom: 45px;
-        color: #FEE3C3;
-        width: 100%;
-        height: 80%;
-        padding-top: 82px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: 4em;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        justify-content: space-around;
-      }
-      
-      .portfoliosection h2 {
-        color: #d95d39;
-      }
-      
-      .portfoliosection, .portfoliosection2 h3 {
-        color: #FEE3C3;
-      }
-      
-      .portfoliosection h4 {
-        color: #FFFFFF;
-      }
-      
-      .portfoliouximage > img {
-        padding-left: auto;
-        padding-right: auto;
-        width: 70em;
-        object-fit: cover;
-      }
-      
-      .portfoliouximage > h3 {
-        padding-left: 3.5em;
-        padding-bottom: 1.5em;
-      }
-      
-      .portfoliosection iframe {
-        padding-left: auto;
-        padding-right: auto;
-        width: 600px;
-        height: 414px;
-        object-fit: cover;
-      }
-      
-      .quoteattribution h4 {
-        padding: 0px 0px 0px 20px;
-        color: #0E1428;
-      }
-      
-      .nav {
-        background: #0E1428;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        align-items: justify;
-        list-style: none;
-        width: 100%;
-        margin: 0px;
-        padding: 20px;
-      }
-      
-      .strapline {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 3.2em;
-      }
-      
-      .skillsetsection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 10em;
-        background: #d95d39;
-        margin: 0px;
-        margin-bottom: 20px;
-        color: #0E1428;
-        width: 100%;
-        height: 30%;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: -20px;
-        justify-content: center;
-      }
-      
-      .skillsetsection > span {
-        margin-left: -10px;
-      }
-      
-      .skillsetsection > h2 {
-        color: #FEE3C3; 
-        margin-top: -10px;
-      }
-      
-      .timelinesection {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        column-gap: 107px;
-        background: #0E1428;
-        margin: 0px;
-        margin-bottom: 20px;
-        color: #FEE3C3;
-        width: 100%;
-        height: 47em;
-        padding-top: 9em;
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-bottom: -20px;
-        box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
-        justify-content: space-evenly;
-        font-size: 1em;
-      }
-      
-      .timelinesection > div {
-        position: relative;
-        display: block;
-        margin-left: -3.25em;
-        margin-right: 1.2em;
-        margin-top: -3em;
-      }
-      
-      .timelinesection h2 {
-        color: #d95d39;
-        font-size: x-large;
-      }
-      
-      .thumbnail-futurform {
-        width: 600px;
-        height: 415px;
-        object-fit: cover;
-      }
-      
-      .uxportfolio {
-        background: #0E1428;
-        margin-top: 0px;
-        margin-left: 0em;
-        color:#d95d39;
-        z-index: 1;
-      }
-      
-      .webportfolio {
-        display: block;
-        position: relative;
-        margin-left: 8.7em;
-        margin-right: auto;
-        margin-bottom: 20px;
-        margin-top: -40px;
-      }
-      
-      .webportfoliodiv {
-        margin-bottom: 50px;
-      }
-      
-      #copywritingdiploma {
-        width: 29.4em;
-        object-fit: cover;
-        padding-top: 10px;
-        padding-left: 20px;
-      }
-      
-      #seodiploma {
-        width: 29.5em;
-        object-fit: cover;
-        padding-top: 10px;
-        padding-left: 106px;
-      }   */
+}
  

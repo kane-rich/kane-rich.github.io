@@ -629,7 +629,7 @@ p {
 } 
 
 /* UX PORTFOLIO PAGE STYLING */
-
+/* 
 .box1--dark h1 {
   background: #0E1428;
   margin-top: 0px;
@@ -712,7 +712,7 @@ p {
 
 .pdfwrapper h3 {
   margin-left: -223px;
-}
+} */
 
 .portfoliopagesection {
   display: flex;
@@ -737,7 +737,7 @@ p {
   justify-content: space-around;
 }
 
-.portfoliopagesection a {
+/* .portfoliopagesection a {
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -752,45 +752,45 @@ p {
 }
 
 /* visited link */
-.portfoliopagesection a:visited {
+/* .portfoliopagesection a:visited {
   color: #d95d39;
-}
+} */
 
 /* mouse over link */
-.portfoliopagesection a:hover {
+/* .portfoliopagesection a:hover {
   color: #FEE3C3;
-}
+} */
 
 /* selected link */
-.portfoliopagesection a:active {
+/* .portfoliopagesection a:active {
   color: #FEE3C3;
   
-}
+} */
 
-.portfoliopagesection img {
+/* .portfoliopagesection img {
   width: 100%;
-}
+} */
 
-.testheader {
+/* .testheader {
   margin-top: 80px;
   padding-left: 80px;
-}
+} */
 
 /* .testheader h2, h3 {
   padding-left: 222px;
 } */
-
+/* 
 .ux p {
   text-align: left;
   margin-top: 0em;
   color: #0E1428;
   font-weight: 600;
-}
+} */
 
 /* .uxheader h2, h3 {
   padding-left: 222px;
 } */
-
+/* 
 .uxlist {
   font-size: 20px;
   color: #FEE3C3;
