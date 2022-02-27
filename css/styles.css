@@ -776,9 +776,9 @@ p {
   padding-left: 80px;
 }
 
-.testheader h2, h3 {
+/* .testheader h2, h3 {
   padding-left: 222px;
-}
+} */
 
 .ux p {
   text-align: left;
@@ -787,9 +787,9 @@ p {
   font-weight: 600;
 }
 
-.uxheader > h2, h3 {
+/* .uxheader h2, h3 {
   padding-left: 222px;
-}
+} */
 
 .uxlist {
   font-size: 20px;
