@@ -116,6 +116,7 @@ nav li {
   margin-right: 42px;
   font-size: 14px;
   text-decoration: none;
+  padding: 10px;
 }
 
 nav li:hover {
@@ -237,6 +238,22 @@ p {
   margin-top: 50px;
   margin-bottom: 0px;
   color: #FFFFFF;
+}
+
+.gridlayouts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row: 1 / span 2;
+  width: 100%;
+  place-items: center;
+  padding: 20px;
+  padding-top: 4em;
+  row-gap: 6em;
+}
+
+.gridlayouts ul {
+  list-style: none;
+  place-items: center;
 }
 
 .flexchild {

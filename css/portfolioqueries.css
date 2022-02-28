@@ -132,7 +132,7 @@
     }
 
     .uxheader h2 {
-        padding-left: 70px;
+        padding-left: 7ß0px;
         margin-bottom: 10px;
         margin-top: 10px;
         font-size: 20px;
@@ -394,7 +394,7 @@
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
-        font-size: 11px;
+        font-size: 15px;
         padding: 6px;
     }
 
@@ -445,7 +445,7 @@ h1, h2 {
 }
 
 h3, h4, h5 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 1.5;
     display: block;

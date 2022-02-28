@@ -62,6 +62,12 @@
         font-size: 13px;
     }
 
+    .box2--light {
+      flex-direction: column;
+      width: 100%;
+      padding-top: 50px;
+    }
+
     .footerend {
         padding-top: 0.9em;
         align-items: baseline;
