@@ -471,10 +471,10 @@ p {
     display: none;
 }
 
-.portfoliopagesection {
+/* .portfoliopagesection {
     display: unset;
     padding-bottom: 20px;
-}
+} */
 
 .prototypediv {
   margin-bottom: -8em;
@@ -537,13 +537,32 @@ p {
   margin-bottom: -4em;
 }
 
+.laptopportfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  place-items: center;
+  padding: 20px;
+  padding-top: 4em;
+  row-gap: 6em;
+}
+
+.laptopgriditems {
+  display: flex;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
 .miroh3 {
   margin-left: -223px;
 }
 
 .prototypediv {
   width: 100%;
-  margin: -20px;
+  margin: -75px;
   margin-bottom: 3em;
   margin-left: auto;
   margin-right: auto;
@@ -703,11 +722,11 @@ p {
 .mobileportfoliolinks {
     display: none;
 }
-
+/* 
 .portfoliopagesection {
     display: unset;
     padding-bottom: 20px;
-}
+} */
 
 .prototypediv {
     margin-bottom: -8em;
@@ -768,6 +787,25 @@ p {
   margin-right: 20%;
   overflow: hidden;
   margin-bottom: -4em
+}
+
+.laptopportfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100vw;
+  place-items: center;
+  padding: 20px;
+  padding-top: 4em;
+  row-gap: 6em;
+}
+
+.laptopgriditems {
+  display: flex;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .miroh3 {
@@ -1075,6 +1113,10 @@ p {
       overflow: hidden;
       margin-bottom: 6em;
     }
+
+    .laptopportfolio {
+      display: none;
+    }
     
     .miroh3 {
       margin-left: -223px;
@@ -1160,15 +1202,15 @@ p {
       color: #FEE3C3;
       
     }
-    
-.portfoliopagesection img {
-  margin-top: -14em;
-  object-fit: contain;
-  height: 147em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8em;
-}
+      
+  .portfoliopagesection img {
+    margin-top: -14em;
+    object-fit: contain;
+    height: 147em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8em;
+  }
 
     .researchsection {
       margin-top: 2em;
