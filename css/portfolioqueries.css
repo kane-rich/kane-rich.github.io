@@ -124,6 +124,7 @@
 
     .pdfwrapper {
         width: 158%;
+        padding-top: 20px;
     }
 
     .prototypediv {
@@ -210,7 +211,7 @@
     .iframecontainer {
       width: 29em;
       height: 545px;
-      margin-left: 14.5%;
+      margin-left: 13%;
       margin-right: 0%;
       overflow: hidden;
     }
@@ -352,7 +353,7 @@
     .iframecontainer {
         width: 29em;
         height: 545px;
-        margin-left: 14.5%;
+        margin-left: 13%;
         margin-right: 0%;
         overflow: hidden;
     }
@@ -515,7 +516,7 @@ p {
 
 .iframe {
   width: 100%;
-  height: 1016px;
+  height: 1285px;
   object-fit: cover;
   zoom: 1;
   -moz-transform: scale(0.75);
@@ -530,9 +531,10 @@ p {
 .iframecontainer {
   width: 100%;
   height: 1150px;
-  margin-left: 12.5%;
+  margin-left: 13%;
   margin-right: 20%;
   overflow: hidden;
+  margin-bottom: -4em;
 }
 
 .miroh3 {
@@ -620,7 +622,12 @@ p {
 }
 
 .portfoliopagesection img {
-  width: 100%;
+  margin-top: 2em;
+  object-fit: contain;
+  height: 82em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
 }
 
 .testheader {
@@ -742,7 +749,7 @@ p {
 
 .iframe {
   width: 100%;
-  height: 1016px;
+  height: 1285px;
   object-fit: cover;
   zoom: 1;
   -moz-transform: scale(0.75);
@@ -755,11 +762,12 @@ p {
 
 
 .iframecontainer {
-  width: 100%;
+  width: 98%;
   height: 1150px;
-  margin-left: 12.5%;
+  margin-left: 13%;
   margin-right: 20%;
   overflow: hidden;
+  margin-bottom: -4em
 }
 
 .miroh3 {
@@ -776,13 +784,15 @@ p {
 
 .pdf {
   width: 100%;
-  height: 80%;
+  height: 117em;
   object-fit: cover;
+  margin-bottom: 20em;
 }
 
 .pdfwrapper {
   width: 80%;
-  height: 1130px;
+  height: 1600px;
+  margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -8em;
@@ -847,7 +857,12 @@ p {
 }
 
 .portfoliopagesection img {
-  width: 100%;
+  margin-top: -42em;
+  object-fit: contain;
+  height: 147em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
 }
 
 .testheader {
@@ -1040,7 +1055,7 @@ p {
     
     .iframe {
       width: 100%;
-      height: 1500px;
+      height: 1285px;
       object-fit: cover;
       zoom: 1;
       -moz-transform: scale(0.75);
@@ -1053,11 +1068,12 @@ p {
     }
     
     .iframecontainer {
-      width: 100%;
+      width: 98%;
       height: 1150px;
-      margin-left: 12.5%;
+      margin-left: 13%;
       margin-right: 20%;
       overflow: hidden;
+      margin-bottom: 6em;
     }
     
     .miroh3 {
@@ -1074,17 +1090,17 @@ p {
     
     .pdf {
       width: 100%;
-      height: 48em;
+      height: 117em;
       object-fit: cover;
     }
     
     .pdfwrapper {
       width: 80%;
-      height: 1130px;
-      margin-top: 10em;
+      height: 1600px;
+      margin-top: -7em;
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: -8em;
+      margin-bottom: 20em;
       position: relative;
     }
     
@@ -1145,8 +1161,26 @@ p {
       
     }
     
-    .portfoliopagesection img {
-      width: 100%;
+.portfoliopagesection img {
+  margin-top: -14em;
+  object-fit: contain;
+  height: 147em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8em;
+}
+
+    .researchsection {
+      margin-top: 2em;
+    }
+
+    .researchsection img {
+      height: 50em;
+      margin-top: 3em;
+    }
+
+    .researchsection h2 {
+      margin-bottom: 0.5em;
     }
     
     .testheader {

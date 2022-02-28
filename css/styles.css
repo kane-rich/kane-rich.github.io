@@ -705,6 +705,14 @@ p {
   object-fit: cover;
 }
 
+.pdfwrapper span {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
 .pdfwrapper {
   width: 100%;
   height: 1130px;
@@ -730,6 +738,7 @@ p {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -0.5em;
   color: #FEE3C3;
   width: 80%;
   height: 80%;
@@ -772,6 +781,12 @@ p {
 
 .portfoliopagesection img {
   width: 100%;
+  position: relative;
+}
+
+.researchsection {
+  margin-top: 30em;
+  padding-bottom: 10em;
 }
 
 .testheader {
