@@ -68,6 +68,16 @@
       padding-top: 50px;
     }
 
+    .divider {
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border: 1px dotted #FEE3C3;
+      border-radius: 5px;
+      width: 92px;
+      padding: -1.7000000000000028px;
+      margin-left: -1.7em;
+    }
+
     .footerend {
         padding-top: 0.9em;
         align-items: baseline;
@@ -293,6 +303,16 @@
 
     .aboutsection h2 {
         width: 12em;
+    }
+
+    .divider {
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border: 1px dotted #FEE3C3;
+      border-radius: 5px;
+      width: 92px;
+      padding: -1.7000000000000028px;
+      margin-left: -1.7em;
     }
 
     .footerend {
@@ -523,6 +543,16 @@
         font-size: 19px;
     }
 
+    .divider {
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border: 1px dotted #FEE3C3;
+      border-radius: 5px;
+      width: 92px;
+      padding: -1.7000000000000028px;
+      margin-left: -1.7em;
+    }
+
     .footerend {
         padding-top: 0.9em;
         align-items: baseline;
@@ -728,6 +758,15 @@
     .aboutsection h2 {
         width: 18em;
         font-size: 1.2em;
+    }
+
+    .divider {
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border: 1px dotted #FEE3C3;
+      border-radius: 5px;
+      width: 99px;
+      margin-left: -25px;
     }
 
     .footerend {
@@ -940,6 +979,15 @@ p {
 .aboutsection h2 {
     width: 19em;
     font-size: 1.2em;
+}
+
+.divider {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  border: 1px dotted #FEE3C3;
+  border-radius: 5px;
+  width: 124px;
+  margin-left: -25px;
 }
 
 .footerend {
@@ -1295,6 +1343,15 @@ margin-left: 0px;
       .diplomaux {
         position: relative;
         width: 100%;
+      }
+
+      .divider {
+        margin-top: 10px;
+        margin-bottom: 3px;
+        border: 1px dotted #FEE3C3;
+        border-radius: 5px;
+        width: 124px;
+        margin-left: 0px;
       }
       
       .designskillh3, .marketingskillh3, .photographyskillh3, .softskillh3, .uxskillh3, .webskillh3, .writingskillh3 {
