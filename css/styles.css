@@ -240,6 +240,15 @@ p {
   color: #FFFFFF;
 }
 
+.divider {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  border: 1px dotted #FEE3C3;
+  border-radius: 5px;
+  width: 122px;
+  padding: 0.3px;
+}
+
 .gridlayouts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
