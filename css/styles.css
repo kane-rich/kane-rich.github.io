@@ -685,6 +685,10 @@ p {
   overflow: hidden;
 }
 
+.laptopportfolio {
+  display: none;
+}
+
 .miroh3 {
   margin-left: -223px;
 }
