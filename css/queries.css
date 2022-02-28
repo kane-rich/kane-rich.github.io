@@ -224,12 +224,13 @@
     .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset {
         padding: 6px;
         margin-top: -5px;
-        margin-bottom: 0px;
+        margin-bottom: 1em;
         color: #FFFFFF;
     }
 
-    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset > h3 {
+    .designskillset, .marketingskillset, .photographyskillset, .softskillset, .uxskillset, .webskillset, .writingskillset h3 {
         align-items: center;
+        margin-bottom: 30px;
     }
 
     .uxportfolio {
@@ -862,7 +863,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        column-gap: 5em;
+        column-gap: 8em;
         background: #d95d39;
         margin: 29px;
         margin-top: -10px;
