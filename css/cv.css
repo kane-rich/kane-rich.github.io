@@ -10,22 +10,120 @@ print {
     
 }
 
+.container h5 {
+  font-weight: 600;
+  line-height: 1.5;
+  display: block;
+  margin-top: 0.9em;
+  margin-bottom: 0.2em;
+  margin-left: 0;
+  margin-right: 0;
+  border-left: solid 1.5px brown;
+  border-top: solid 1.5px brown;
+  padding: 2px;
+}
+
+.container h6 {
+  margin-bottom: 5px;
+}
+
 .cvpage {
     background: white;
     padding: 20px;
   }
   
-  .container {
-    margin-top: 20px;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 3px 15px; 
-    grid-template-areas: 
-      ". ."
-      ". ."
-      ". ."; 
-    width: 100%; 
-    height: 100%; 
-  }
-  
+.container {
+  margin-top: 20px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 3px 15px; 
+  grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."; 
+  width: 100%; 
+  height: 100%; 
+}
+
+.container ul {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0;
+    border: dotted black 2px opacity 0.4;
+}
+
+.container li {
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+  width: 98%;
+  font-size: 12px;
+  background-color: antiquewhite;
+}
+
+.intro {
+  background-image: linear-gradient(#0E1428, brown) ;
+  margin-bottom: -20px;
+  padding: 19px;
+}
+
+.intro p {
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.left {
+  border-right: 5px solid brown;
+}
+
+.nav {
+  background: #0E1428;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: justify;
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 15px;
+}
+
+.nav li {
+  position: relative;
+  color: #FEE3C3;
+  list-style: none;
+  font-weight: 300;
+  margin-left: 0px;
+  margin-right: 20px;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.right p {
+  background: none;
+  color: black;
+  text-align: left;
+  padding: 2px;
+  font-weight: 500;
+}
+
+.right ol {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0;
+  border: dotted black 2px opacity 0.4;
+}
+
+.right li {
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 10px;
+  width: 98%;
+  font-size: 12px;
+  background: none;
+}
