@@ -67,6 +67,7 @@
   width: 98%;
   font-size: 12px;
   background-color: #FEE3C3;
+  font-weight: 400;
 }
 
 .h4background {
@@ -91,6 +92,7 @@
   text-align: left;
   margin-bottom: 0px;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .left {
