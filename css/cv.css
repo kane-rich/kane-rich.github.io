@@ -1,37 +1,15 @@
-
 /* CV PAGE */
-screens {
-
-}
-
-
 
 print {
     
 }
 
-
-/* Smallest devices (Small phones up to 576px) */
-@media screen and (max-width: 576px ) { 
+* {
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  box-sizing: border-box;
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) and (max-width: 768px ) { 
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) { 
-}
-
-@media screen and (min-width: 992px) {
-}
-
-@media screen and (min-width: 1200px) {
-}
-
-@media (min-width: 1400px) {
-}
-
 
 .container h5 {
   font-weight: 600;
@@ -50,9 +28,19 @@ print {
   margin-bottom: 5px;
 }
 
+.contact {
+  margin-top: -2px;
+  margin-left: 0px;
+}
+
+.contact span {
+  display: block;
+}
+
 .cvpage {
   background: white;
   padding: 20px;
+  height: 100%;
 }
   
 .container {
@@ -83,7 +71,19 @@ print {
   padding-bottom: 10px;
   width: 98%;
   font-size: 12px;
-  background-color: antiquewhite;
+  background-color: #FEE3C3;
+}
+
+.h4background {
+  background: brown;
+  color: white;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.interestslist h3 {
+  color: brown;
 }
 
 .intro {
@@ -100,6 +100,12 @@ print {
 
 .left {
   border-right: 5px solid brown;
+}
+
+.materialicons {
+  position: relative;
+  display: block;
+
 }
 
 .nav {
@@ -146,7 +152,155 @@ print {
   padding-left: 2px;
   padding-right: 2px;
   padding-bottom: 10px;
-  width: 98%;
+  width: 100%;
   font-size: 12px;
-  background: none;
+  background: #FEE3C3;
+}
+
+.quote {
+  width: 100%;
+  border: solid #FEE3C3 5px;
+  color: #0E1428;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.quote h4 {
+  margin-bottom: -20px;
+}
+
+/* Smallest devices (Small phones up to 576px) */
+@media screen and (max-width: 576px ) { 
+  p {
+    font-size: 14px;
+  }
+
+.nav li {
+  font-size: 14px;
+  padding: 10px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 768px ) { 
+
+  h1, h2 {
+    font-size: 15px;
+  }
+  
+  h3, h4, h5 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .container li {
+    font-size: 14px;
+  }
+
+  .nav li {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+  h1, h2 {
+    font-size: 17px;
+  }
+  
+  h3, h4, h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container li {
+    font-size: 16px;
+  }
+
+  .nav li {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1, h2 {
+    font-size: 17px;
+  }
+  
+  h3, h4, h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container li {
+    font-size: 16px;
+  }
+
+  .nav li {
+    font-size: 16px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1, h2 {
+    font-size: 16px;
+  }
+  
+  h3, h4, h5 {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .container li {
+    font-size: 15px;
+  }
+
+  .nav li {
+    font-size: 15px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  h1, h2 {
+    font-size: 17px;
+  }
+  
+  h3, h4, h5 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container li {
+    font-size: 16px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .nav li {
+    font-size: 16px;
+    padding: 20px;
+  }
 }
