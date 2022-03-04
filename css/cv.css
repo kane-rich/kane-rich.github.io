@@ -10,6 +10,29 @@ print {
     
 }
 
+
+/* Smallest devices (Small phones up to 576px) */
+@media screen and (max-width: 576px ) { 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 768px ) { 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) { 
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+
+
 .container h5 {
   font-weight: 600;
   line-height: 1.5;
@@ -28,9 +51,9 @@ print {
 }
 
 .cvpage {
-    background: white;
-    padding: 20px;
-  }
+  background: white;
+  padding: 20px;
+}
   
 .container {
   margin-top: 20px;
@@ -47,10 +70,10 @@ print {
 }
 
 .container ul {
-    list-style-type: square;
-    list-style-position: inside;
-    padding: 0;
-    border: dotted black 2px opacity 0.4;
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0;
+  border: dotted black 2px opacity 0.4;
 }
 
 .container li {
