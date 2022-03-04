@@ -1,9 +1,4 @@
 /* CV PAGE */
-
-print {
-    
-}
-
 * {
   font-smooth: auto;
   -webkit-font-smoothing: antialiased;
@@ -169,6 +164,7 @@ print {
 
 .quote h4 {
   margin-bottom: -20px;
+  }
 }
 
 /* Smallest devices (Small phones up to 576px) */
@@ -304,3 +300,5 @@ print {
     padding: 20px;
   }
 }
+
+media print 
