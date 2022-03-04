@@ -164,18 +164,21 @@
 
 .quote h4 {
   margin-bottom: -20px;
-  }
 }
 
 /* Smallest devices (Small phones up to 576px) */
 @media screen and (max-width: 576px ) { 
-  p {
-    font-size: 14px;
-  }
+.intro p {
+  font-size: 14px;
+}
+
+.container li {
+  font-size: 14px;
+}
 
 .nav li {
   font-size: 14px;
-  padding: 10px;
+  padding: 3px;
   }
 }
 
