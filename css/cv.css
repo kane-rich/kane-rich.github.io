@@ -1,3 +1,21 @@
+nav li {
+  position: relative;
+  color: #FEE3C3;
+  list-style: none;
+  font-weight: 300;
+  margin-left: 42px;
+  margin-right: 42px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+} 
+
+nav li:hover {
+  color: #0E1428;
+  background: #FEE3C3;
+  transition: .5s;
+}
+
 /* CV PAGE */
 @media print {
   li {
@@ -10,6 +28,10 @@
 
   p {
     color: #0E1428;
+  }
+
+  .contact {
+    display: block!important;
   }
 
   .h4background {
@@ -27,9 +49,7 @@
 
   .material-icons {
     color: brown;
-  }
-
-  
+  } 
 }
 
 * {
@@ -46,6 +66,10 @@ h1 {
 
 h2, h3, h4, h4, h5 {
   color: #d95d39;
+}
+
+.contact {
+  display: none;
 }
 
 .container h5 {
@@ -149,30 +173,6 @@ h2, h3, h4, h4, h5 {
   position: relative;
   display: block;
 
-}
-
-.nav {
-  background: #0E1428;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: justify;
-  list-style: none;
-  width: 100%;
-  margin: 0px;
-  padding: 15px;
-}
-
-.nav li {
-  position: relative;
-  color: #FEE3C3;
-  list-style: none;
-  font-weight: 300;
-  margin-left: 0px;
-  margin-right: 20px;
-  font-size: 13px;
-  text-decoration: none;
-  padding: 5px;
 }
 
 .print-button {
@@ -381,5 +381,3 @@ h1, h2 {
     padding: 20px;
   }
 }
-
-media print 
