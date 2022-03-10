@@ -137,6 +137,25 @@ p {
   font-size: 1.1em;
 }
 
+.about-link a:link {
+  color: #FEE3C3;
+}
+
+/* visited link */
+a:visited {
+  color: #d95d39;
+}
+
+/* mouse over link */
+a:hover { 
+  color: #d95d39;
+}
+
+/* selected link */
+a:active {
+  color: #FEE3C3;
+}
+
 .aboutsection {
   display: flex;
   flex-direction: column;
