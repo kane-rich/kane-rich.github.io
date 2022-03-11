@@ -1,0 +1,30 @@
+.contact-pullout {
+    position: absolute;
+    display: block;
+    width: 20em;
+    right: 30px;
+    top: 7em;
+    border: none;
+    border-radius: 4px;
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
+    background: linear-gradient(to right, #d95d39, #F37335, #FDC830);
+    color: #fff;
+    transition: all 0.3s ease;
+    padding: 20px;
+    box-shadow: 0 30px 15px -7px rgb(0 0 0 / 20%);
+    z-index: 1;
+}
+
+.contact-fields {
+    display: block;
+}
+
+input {
+    border: none;
+    border-bottom: 4px #0E1428;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 99%;
+}
