@@ -1231,11 +1231,11 @@
     margin-right: 42px;
   }
   
-  nav li:hover {
+  /* nav li:hover {
     color: #0E1428;
     background: #FEE3C3;
     transition: .5s;
-  }
+  } */
   
   p {
     color: #FEE3C3;

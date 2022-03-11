@@ -4,6 +4,7 @@
   -webkit-font-smoothing: antialiased;
   margin: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -119,11 +120,11 @@ nav li {
   padding: 10px;
 }
 
-nav li:hover {
+/* nav li:hover {
   color: #0E1428;
   background: #FEE3C3;
   transition: .5s;
-}
+} */
 
 p {
   color: #FEE3C3;
