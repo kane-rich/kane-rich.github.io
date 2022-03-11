@@ -2,7 +2,7 @@
     position: absolute;
     display: block;
     width: 20em;
-    right: 30px;
+    right: 16px;
     top: 7em;
     border: none;
     border-radius: 4px;
@@ -31,8 +31,15 @@ input {
     font-family: inherit;
     font-size: 16px;
     padding: 5px;
+    transition: 180ms box-shadow ease-in-out;
+    box-sizing: border-box;
+    background-color: white;
+    color: #0E1428;
 }
 
 input[type=textarea] {
     height: 12em;
+    resize: vertical;
+    width: 99%;
+    overflow: auto;
 }
