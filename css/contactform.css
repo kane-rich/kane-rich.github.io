@@ -1,4 +1,8 @@
 .contact-pullout {
+    display: none;
+}
+
+.contact-pullout {
     position: absolute;
     display: block;
     width: 20em;
@@ -38,7 +42,7 @@
     font-size: 18px;
     font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 30px 15px -7px rgb(0 0 0 / 20%);
+    box-shadow: -5px 10px 15px 2px rgb(0 0 0 / 20%);
 }
 
 input {
