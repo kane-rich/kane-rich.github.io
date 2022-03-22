@@ -1,5 +1,5 @@
 // Target the contact form popout
-toggle.classlist.'contact-pullout'
+document.getElementById('contact-pullout');
 
 // Display the contact form popout using class toggle
 
