@@ -1,8 +1,12 @@
-// Target the contact form popout
-document.getElementById('contact-pullout');
+const open = document.getElementById('contact-form');
+const modal_container = document.getElementById('modal_container');
+const close = document.getElementById('close');
 
-// Display the contact form popout using class toggle
+open.addEventListener('click', () => {
+    modal_container.classList.add('show');
+});
 
-// Toggle with event listener onclick for button
+close.addEventListener('click', () => {
+    modal_container.classList.remove('show');
+});
 
-// Form submission on the submit button

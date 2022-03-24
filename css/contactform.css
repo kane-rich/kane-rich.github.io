@@ -1,8 +1,4 @@
-.contact-pullout, .button-submit >* {
-    display: none;
-}
-
-.contact-pullout {
+.modal-container {
     position: absolute;
     display: none;
     width: 20em;
@@ -18,6 +14,12 @@
     padding: 20px;
     box-shadow: 0 30px 15px -7px rgb(0 0 0 / 20%);
     z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
 }
 
 .contact-fields {
