@@ -17,10 +17,10 @@
     transition: opacity 0.3s ease;
 }
 
-.modal-container.show {
+/* .modal-container.show {
     pointer-events: auto;
     opacity: 1;
-}
+} */
 
 .contact-fields {
     display: block;

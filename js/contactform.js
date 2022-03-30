@@ -1,12 +1,19 @@
 const open = document.getElementById('contact-form');
-const modal_container = document.getElementById('modal_container');
+const modal_container = document.getElementById('modal-container');
 const close = document.getElementById('close');
 
-open.addEventListener('click', () => {
-    modal_container.classList.add('show');
-});
+open.onclick = function() {
+    modal_container.style.display = "block";
+}
 
-close.addEventListener('click', () => {
-    modal_container.classList.remove('show');
-});
+close.onclick = function() {
+    modal_container.style.display = "none";
+}
+// Make required fields needing validation
+
+// If form submit button is filled in without any input into fields, ask for input.
+
+// When forms have input, allow submit button press.
+
+// Close the modal when submit button pressed.
 
