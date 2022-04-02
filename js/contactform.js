@@ -9,11 +9,3 @@ open.onclick = function() {
 close.onclick = function() {
     modal_container.style.display = "none";
 }
-// Make required fields needing validation
-
-// If form submit button is filled in without any input into fields, ask for input.
-
-// When forms have input, allow submit button press.
-
-// Close the modal when submit button pressed.
-
