@@ -99,7 +99,7 @@
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
     .home-logo {
         margin-left: 0.2rem;
     }
@@ -117,28 +117,32 @@
     .navbar_menu {
         display: grid;
         grid-template-columns: auto;
-        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         position: absolute;
         top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: -1;
+        left: 0%;
     }
 
     .navbar_menu.active {
         width: 100%;
-        background: #0E1428;
+        background: #1a254b;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 120vh;
+        z-index: 99;
+        height: 120vh;
         font-size: 1.6rem;
         border-top: solid #d95d39 3px;
         box-shadow: 6px 5px 5px 1px rgb(0 0 0 / 20%);
         margin-left: auto;
         margin-right: auto;
         left: 0%;
+        padding: 0px;
     }
 
     #navbar_logo {
