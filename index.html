@@ -3,28 +3,86 @@
 <html lan="en">
     <head>
         <title>Kane Rich - Web Developer</title>
+        <link href="css/navbar.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/queries.css" rel="stylesheet" type="text/css" media="all">
+        <link href="css/contactform.css" rel="stylesheet" type="text/css" media="all">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <script src="js/script.js" defer></script>
+        <script src="js/navbar.js" defer></script>
+        <script src="js/contactform.js" defer></script>
     </head>
     <header>
-        <nav>
-        <ul class="nav">
-            <li><a href="/about.html">About</a></li>
-            <li><a href="#portfoliosection">Portfolio</a></li>
-            <li><a href="#skillsetsection">Skillset</a></li>
-            <!-- <li><a href="">Achievements</li></a> -->
-            <!-- <li><a href="">Contact</li></a> -->
-            <li><a href="https://github.com/kane-rich">GitHub</a></li>
-            <li><a href="/kanerich-cv.html">CV</a></li>
-        </ul>
+        <nav class="navbar">
+            <span class="home-logo"><a href="#home" id="navbar_logo">Kane Rich</a></span>
+            <div class="navbar_container">
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="/about.html" class="navbar_links" id="about-page">About</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#portfoliosection" class="navbar_links" id="portfolio-section">Portfolio</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#skillsetsection" class="navbar_links" id="skillset-section">Skillset</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="https://github.com/kane-rich" class="navbar_links" id="github">GitHub</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="/kanerich-cv.html" class="navbar_links" id="cv-page">CV</a>
+                    </li>
+                    <li class="navbar_btn">
+                        <button class="button" id="contact-form">Contact</a>
+                    </li>
+
+
+                    <!-- <li><a href="">Achievements</li></a> -->
+                    <!-- <li><a href="">Contact</li></a> -->
+                </ul>
+            </div>
         </nav>
-  
+        <div class="modal-container" id="modal-container">
+            <div class="modal">
+                <form target="_blank" action="https://formsubmit.co/kaneaaronrich@gmail.com" method="POST">
+                <span id="close">
+                    <button class="close-btn">X</button>
+                </span>
+            <h4>Contact Kane</h4>
+            <div>
+                <span class="contact-fields">Name:</span>
+                <input type="text" name="person-name" placeholder="Full Name" required>
+            </div>
+            <div>
+                <span class="material-icons">
+                    email
+                </span>
+            </div>
+            <div>
+                <input type="email" name="email-address" placeholder="Your Email" required>
+            </div>
+            <div>
+                <span class="contact-fields">Enquiry:</span>
+            </div>
+            <div>
+                <textarea name="email-content" placeholder="Your message here" rows="10" required></textarea>
+            </div>
+            <div>
+                <button class="button-submit">Submit</button>
+            </div>
+            </div>
+        </div>
         <aside><span class="introh1"><h1>Kane Rich - Web Developer.</h1></span>
         <div class="strapline">
-            <p>Certified in UX design, web design, copywriting and SEO/content.
+            <p>Certified in UX design, web design, copywriting and SEO/content.</p>
             <p>Trained photographer, DJ and surfing enthusiast.</p>
         </div>
         </aside> 
